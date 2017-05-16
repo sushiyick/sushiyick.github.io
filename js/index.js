@@ -1,0 +1,2 @@
+$('#carouselFade').carousel();
+$(document).foundation();

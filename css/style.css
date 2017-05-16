@@ -1,0 +1,388 @@
+body{
+  background:#d13737; 
+ font-family: 'Open Sans', sans-serif;
+}
+.divs{
+  padding:10px;
+  width:35%;
+  display:inline-block;
+}
+
+.boss {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.0);
+}
+  
+.header{
+ padding: 10%;
+}
+
+.logo {
+  max-width:100%;
+  padding: 30px;
+  position: relative;
+  transform: translateY(70%);
+  margin-bottom: 60%;
+}
+
+.footerer{
+  padding:"10%"
+}
+
+.titleHead {
+ font-size: 12px;
+  color: white;
+  position: relative;
+  transform: translateY(70%);
+}
+
+.next{
+  max-width:20%;
+  padding: 15px;
+  position: relative;
+  transform: translateY(100%);
+}
+
+.logolive {
+  max-width:70%;
+}
+
+.file_button_container,
+  .file_button_container input {
+       height: 200px;
+       width: 200px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+   }
+
+   .file_button_container {
+       background: transparent url(http://i.imgur.com/GJYN6B4.png) center no-repeat;
+     
+   }
+
+   .file_button_container input {
+       opacity: 0;
+   }
+
+.titleSub {
+  font-size: 10px;
+  color: #d13737;
+}
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 11px;
+    height: auto;
+    padding: 10px;
+
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #efefef;
+    
+}
+.login-title
+{
+    color: #d13737;
+   text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+.new-account
+{
+    display: block;
+    color:#d13737;
+  font-size: 10px;
+    margin-top: 10px;
+}
+
+
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+} 
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+} 
+.carousel-caption {
+    text-shadow: 0 1px 4px rgba(0,0,0,.9);
+  font-size:17px
+}
+.carousel-caption h3 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+.carousel{
+    height: 60%;
+    } 
+
+    html,
+    body,
+.carousel-inner,
+    .carousel-inner .item {
+    height: 100%;
+    } 
+    .item:nth-child(1) {
+      background: url('http://i.imgur.com/L4X1yxf.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+    .item:nth-child(2) {
+      background: url('http://i.imgur.com/tYz72d5.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+    .item:nth-child(3) {
+      background: url('http://i.imgur.com/oswy9f4.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+.phoonhk {
+  max-width:100%;
+  padding: 5%;
+}
+.commahk {
+  max-width:100%;
+  padding: 5%;
+}
+
+.tslhk{
+  max-width:100%;
+  padding: 5%;
+}
+
+.silhk{
+  max-width:100%;
+  padding: 5%;
+}
+
+.container a {
+    position: relative;
+    width: 50%;
+}
+
+.image a{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #FFF;
+  color: #d13737;
+  font-size: 14px;
+  padding: 12px 28px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #d13737;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.menu-item {
+  margin: 1.6%;
+}
+
+.middle {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-weight: bold;
+}
+
+.icon{
+  max-width:30%;
+}
+
+.p4-header{
+  background:#d13737;
+  padding:3%;
+}
+
+.P4-container {
+  position: relative;
+  margin-top: 0px;
+  width: 640px;
+  height: 452px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.P4-container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.p4-img {
+  position: absolute;
+  width: 640px;
+  height: 452px;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  width: 640px;
+  left: 0;
+  top: 120px;
+  font-weight: 70;
+  font-size: 20px;
+  text-align: center;
+  color: #d13737;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.P4-container:hover .title {
+  top: 100px;
+}
+
+.button {
+  position: absolute;
+  width: 640px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 100px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px #d13737;
+  z-index: 1;
+}
+
+.P4-container:hover .button {
+  opacity: 1;
+}
+
+.uppertitle{
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
